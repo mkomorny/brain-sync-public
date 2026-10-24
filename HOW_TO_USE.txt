@@ -1,0 +1,38 @@
+HOW TO USE: brain-sync
+=======================
+
+PURPOSE
+  Kick off any coding or working session with an instant context briefing
+  synthesized directly from your Second Brain for that specific topic.
+
+CAPABILITIES
+  - Searches Second Brain memories specifically for active tasks, rules, and preferences
+  - Organizes context into: Key Decisions & Rules, Active Preferences & Setup, Open Tasks
+  - Accepts an optional topic name or infers topic from current session
+
+USE CASES
+  - Starting a new session on Live Actions: `/brain-sync Live Actions`
+  - Resuming work on audio transcription tools
+  - Checking active constraints before beginning refactoring
+
+IDEAS
+  - Make `/brain-sync <project>` the very first thing you type when opening a chat
+  - Immediately aligns the agent with your established conventions and decisions
+
+PROMPTS YOU CAN PASTE
+  /brain-sync
+
+  /brain-sync Live Actions
+
+  /brain-sync Ableton OSC bridge
+
+  /brain-sync studio setup
+
+EXAMPLE FLOW
+  You: /brain-sync Live Actions
+  Agent: [Queries brain for Live Actions context and presents formatted session briefing]
+
+DEFAULT GOALS IF YOU DON'T NAME ONE
+  1. Identify active topic from argument or conversation
+  2. Recall decisions, preferences, and open tasks
+  3. Output organized session briefing
